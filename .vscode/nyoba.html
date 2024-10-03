@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Dealership Management</title>
+  <link rel="stylesheet" href="nyoba.css">
+</head>
+<body>
+    
+    <!-- Add Car Form -->
+    <form id="addCarForm">
+      <h1>Zannn's Motor</h1>
+      <p></p>
+    <input type="text" id="brand" placeholder="Brand" required>
+    <input type="text" id="model" placeholder="Model" required>
+    <input type="number" id="year" placeholder="Year" required>
+    <input type="number" id="price" placeholder="Price" required>
+    <button type="submit">Add+</button>
+  </form>
+
+  <!-- Car List -->
+  <table id="carTable">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Model</th>
+        <th>Year</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Car rows will be inserted here by JavaScript -->
+    </tbody>
+  </table>
+
+  <script src="nyoba.js"></script>
+</body>
+</html>
